@@ -2,9 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C6DBD6">
+    android:background="#C6DBD6"
+    tools:context=".Splash">
 
     <ImageView
         android:id="@+id/imageView"
@@ -13,15 +15,16 @@
         android:src="@drawable/man_thinking"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="488dp"
         android:src="@drawable/bottom_white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -32,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
-        android:layout_marginBottom="584dp"
+        android:layout_marginBottom="524dp"
         android:src="@drawable/rent_flow_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,8 +71,8 @@
     <ImageButton
         android:layout_width="220dp"
         android:layout_height="70dp"
-        android:layout_marginStart="232dp"
-        android:layout_marginTop="896dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="832dp"
         android:backgroundTint="#00000000"
         android:scaleType="centerCrop"
         android:src="@drawable/shape"

@@ -13,6 +13,17 @@
         android:theme="@style/Theme.FinalProject"
         tools:targetApi="31">
         <activity
+            android:name=".RentalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FinalProject" />
+        <activity
+            android:name=".OwnerDetails"
+            android:exported="false"
+            android:theme="@style/Theme.FinalProject" />
+        <activity
             android:name=".Splash"
             android:exported="false" />
         <activity

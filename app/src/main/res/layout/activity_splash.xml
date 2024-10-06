@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="176dp"
-        android:text="Welcome to\nRent FLow"
+        android:text="Welcome to\nRent Flow"
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,6 +69,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <ImageButton
+        android:id="@+id/getstartbtn"
         android:layout_width="220dp"
         android:layout_height="70dp"
         android:layout_marginStart="224dp"
